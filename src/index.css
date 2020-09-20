@@ -85,44 +85,78 @@ i.fab:hover {
   text-shadow: -1px -1px 1px var(--platinum);
 }
 
+/* Projects styles */
+.projects-title {
+  background-color: var(--blue-sapphire);
+  margin: 0;
+  height: 50px;
+  text-align: center;
+}
 /* Projects Container */
 
 .projects-container {
+  height: 100%;
+  width: 100%;
   background-color: var(--blue-sapphire);
-  padding: 20px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
+  /* padding: 20px; */
 }
 
-.project-container {
-  height: 40vh;
+.project {
   display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin: auto;
+}
+/* Main container styles */
+.project-container-main {
+  height: 35%;
+  width: 100%;
+  display: flex;
 }
 
 .image-container {
+  width: 50%;
+  height: 100%;
   margin: auto;
-  width: 60%;
-  /* height: 90%; */
+  margin-right: 25px;
 }
 
-img {
-  max-width: 100%;
+.img-main {
+  width: 100%;
   height: auto;
-  margin: auto;
   object-fit: contain;
   box-shadow: var(--card-shadow);
-}
-.project-info {
-  width: 40%;
-  padding: 10px;
-  margin: 15px;
-  box-shadow: var(--card-shadow-alt);
+  margin: 10px;
 }
 
+.project-info-main {
+  width: 50%;
+  padding: 10px;
+}
+
+/* Alt container styles */
+.project-container-alt {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.img-alt {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: var(--card-shadow);
+  margin: 10px;
+}
+
+.project-info-alt {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Shared Project Styles */
 .project-name {
   text-align: center;
 }
@@ -139,11 +173,10 @@ img {
 .tech-icons i:hover {
   text-shadow: -1px -1px 2px var(--platinum);
 }
-
 .project-links {
   display: flex;
   width: 50%;
-  margin: auto;
+  margin: 0 auto auto auto;
   justify-content: space-evenly;
 }
 
