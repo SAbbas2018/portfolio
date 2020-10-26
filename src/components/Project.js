@@ -1,22 +1,9 @@
 import React from "react";
 function Project(props) {
   const { project } = props;
-  const widthStyle = { width: 25 + "em" };
-  const backgroundStyle = {
-    backgroundImage: `url(${project.image})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  };
   return (
-    <div className="card" style={widthStyle}>
-      <div
-        className="card-img-top"
-        style={{
-          ...widthStyle,
-          height: 14 + "em",
-          ...backgroundStyle,
-        }}
-      ></div>
+    <div className="card">
+      <div className={`card-img-top ${project.name}`}></div>
       <div className="card-body">
         <h5 className="card-title">{project.name}</h5>
         <p className="card-text">{project.desc}</p>
@@ -35,7 +22,9 @@ function Project(props) {
             rel="noopener noreferrer"
             className="project-link"
           >
-            <i className="fas fa-map-marker-alt fa-2x"></i>
+            <button type="button" className="btn btn-info btn-sm live-app">
+              Live App
+            </button>
           </a>
         </div>
       </div>

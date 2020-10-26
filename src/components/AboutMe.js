@@ -11,8 +11,9 @@ export default function AboutMe() {
       </h3>
       <hr></hr>
       <p className="about-me-text">
-        I currently a fourth year student at the University of Toronto pursing a
-        Honours Bachelor's of Science in Mathematics and Computer Science{" "}
+        I am currently a fourth year student at the University of Toronto
+        pursing a Honours Bachelor's of Science in Mathematics and Computer
+        Science{" "}
         <span role="img" aria-label="laptop">
           &#128187;
         </span>

@@ -9,6 +9,7 @@
   --rich-black: #070b0d;
   --projects-background: #2e3141;
   --card-background: #353849;
+  --font: "Poppins", sans-serif;
 }
 body {
   margin: 0;
@@ -16,7 +17,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   color: var(--nyanza);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   background-color: #2e3141;
 }
 a {
@@ -153,8 +154,23 @@ i.fab:hover {
   background-color: var(--card-background);
   color: var(--nyanza);
   margin: 1em;
+  width: 25em;
 }
 
+.card-img-top {
+  width: 25em;
+  height: 14em;
+}
+.card-img-top.BookCase {
+  background-image: url("./assets/bookcase.JPG");
+  background-position: center;
+  background-size: cover;
+}
+.card-img-top.NewScript {
+  background-image: url("./assets/newscript.JPG");
+  background-position: center;
+  background-size: cover;
+}
 .projects {
   display: flex;
   justify-content: center;
@@ -170,6 +186,17 @@ i.fab:hover {
   margin: 1em;
 }
 
+.live-app {
+  text-transform: uppercase;
+  font-family: var(--font);
+  background-color: var(--nyanza);
+  color: var(--card-background);
+  font-size: 1.05em;
+}
+.live-app:hover {
+  background-color: var(--sunglow);
+  color: var(--rich-black);
+}
 @media only screen and (max-width: 426px) {
   .projects {
     display: flex;

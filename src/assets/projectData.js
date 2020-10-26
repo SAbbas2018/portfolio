@@ -22,7 +22,7 @@ const projectData = [
     image: "/assets/newscript.JPG",
     repo: "https://github.com/SAbbas2018/newscript-react",
     desc:
-      "This is a React and Node.js application which get weather information for a user entered city through the openweathermap API and the top 10 news headlines from various categories from NEWS API.",
+      "This is a React and Node.js application which obtains weather information for a user entered city through the openweathermap API and the top 10 news headlines from various categories from NEWS API.",
     tech: [
       <i className="devicon-express-original-wordmark tech-icon"></i>,
       <i className="devicon-react-original-wordmark tech-icon"></i>,

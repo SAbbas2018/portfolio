@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-
+import resume from "../assets/Resume.pdf";
 class Header extends Component {
   render() {
     return (
@@ -27,7 +27,7 @@ class Header extends Component {
         >
           Projects
         </Link>
-        <a className="nav-item-custom" href="../assets/Resume.pdf" download>
+        <a className="nav-item-custom" href={resume} download>
           Resume
         </a>
       </div>
