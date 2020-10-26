@@ -30,9 +30,6 @@ class Header extends Component {
         <a className="nav-item-custom" href="../assets/Resume.pdf" download>
           Resume
         </a>
-        <a className="nav-item-custom" href="mailto:raza.35.abbas@gmail.com">
-          Contact Me
-        </a>
       </div>
     );
   }

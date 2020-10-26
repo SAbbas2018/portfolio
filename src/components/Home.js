@@ -1,10 +1,11 @@
 import React from "react";
+import Header from "./Header";
 import AboutMe from "./AboutMe.js";
 function Home() {
   return (
-    <div className="home" id="home">
+    <div className="home style3" id="home">
+      <Header />
       <div className="home-info-container">
-        <h2 className="home-header">About Me</h2>
         <AboutMe />
         <div className="social-container">
           <a
@@ -12,18 +13,18 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin fa-3x"></i>
+            <i className="fab fa-linkedin fa-2x"></i>
           </a>
           <a
             href="https://github.com/SAbbas2018"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github-square fa-3x"></i>
+            <i className="fab fa-github-square fa-2x"></i>
           </a>
         </div>
       </div>
-      <div className="home-pic">my pic here</div>
+      <div className="spacer"></div>
     </div>
   );
 }
