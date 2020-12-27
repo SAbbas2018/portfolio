@@ -11,6 +11,7 @@ function Projects() {
           return <Project key={project.id} project={project} />;
         })}
       </section>
+      <div className="spacer"></div>
     </section>
   );
 }

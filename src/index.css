@@ -3,6 +3,9 @@
   --prussian-blue: #092a49;
   --blue-sapphire: #0b4f6c;
   --platinum: #eaeaea;
+  --darkslateblue: #4c5c96;
+  --secondary-skills: #45558d;
+  --tertiary-skills: #3f4e85;
   --card-shadow: 0 4px 8px 0 #eaeaea, 0 6px 20px 0 #eaeaea;
   --card-shadow-alt: 0 4px 8px 0 #092a49, 0 6px 20px 0 #092a49;
   --sunglow: #ffd147;
@@ -206,6 +209,72 @@ i.fab:hover {
   color: var(--sunglow);
 }
 
+/* Skills Section */
+.skills-section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--darkslateblue);
+}
+
+.skills-header {
+  text-transform: uppercase;
+  height: 8vh;
+  width: 90vw;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  font-size: 2em;
+  margin: 1em;
+}
+.skills-section::before {
+  background-color: var(--darkslateblue);
+}
+
+.skills-container {
+  /* height: 33vh; */
+  width: 100%;
+  position: relative;
+}
+
+/* .programming {
+  background-color: var(--secondary-skills);
+}
+.tools {
+  background-color: var(--tertiary-skills);
+} */
+.container-title {
+  width: 90vw;
+  font-size: 1.2em;
+  margin: auto;
+  padding: 2px;
+}
+.skills-grid {
+  height: 95%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill {
+  width: 25%;
+  font-size: 5em;
+  margin: 0.25em;
+  text-align: center;
+}
+
+.skills-spacer {
+  background-color: var(--darkslateblue);
+}
+#top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-indent: -99999px;
+  cursor: pointer;
+  background: url("./assets/top\ button.png") no-repeat 0 0;
+}
+/* Media Queries */
 @media only screen and (max-width: 426px) {
   .home {
     font-size: 1em;
@@ -222,6 +291,10 @@ i.fab:hover {
   .card-img-top {
     width: 22em;
     height: 13em;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

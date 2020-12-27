@@ -27,6 +27,17 @@ class Header extends Component {
         >
           Projects
         </Link>
+        <Link
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="nav-item-custom"
+          activeClass="nav-item-custom"
+        >
+          Skills
+        </Link>
         <a className="nav-item-custom" href={resume} download>
           Resume
         </a>
