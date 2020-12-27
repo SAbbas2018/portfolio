@@ -7,7 +7,7 @@ const projectData = [
     image: "/assets/bookcase.JPG",
     repo: "https://github.com/SAbbas2018/BookCase",
     desc:
-      "This is a MERN stack application which uses the Google Books API for getting information on books by their ISBN, and to make recommendations.",
+      "This MERN stack application uses the Google Books API for getting information on books by their ISBN-13s, and makes recommendations to users.",
     tech: [
       <i className="devicon-mongodb-plain-wordmark tech-icon"></i>,
       <i className="devicon-express-original-wordmark tech-icon"></i>,
@@ -22,7 +22,7 @@ const projectData = [
     image: "/assets/newscript.JPG",
     repo: "https://github.com/SAbbas2018/newscript-react",
     desc:
-      "This is a React and Node.js application which obtains weather information for a user entered city through the openweathermap API and the top 10 news headlines from various categories from NEWS API.",
+      "This React and Node.js application obtainsweather information for a given city, and news headlines for common categories.",
     tech: [
       <i className="devicon-express-original-wordmark tech-icon"></i>,
       <i className="devicon-react-original-wordmark tech-icon"></i>,
