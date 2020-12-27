@@ -300,9 +300,14 @@ i.fab:hover {
     width: 22em;
     height: 13em;
   }
-  .skills-grid {
+  .web .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .tools .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 }
 
