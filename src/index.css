@@ -309,6 +309,9 @@ i.fab:hover {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+  .home-info-container {
+    text-align: left;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
