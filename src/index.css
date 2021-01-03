@@ -338,6 +338,9 @@ i.fab:hover {
   .project {
     grid-template-columns: 1fr;
   }
+  .skills-section {
+    font-size: 0.7em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
