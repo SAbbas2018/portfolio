@@ -38,7 +38,11 @@ class Header extends Component {
         >
           Skills
         </Link>
-        <a className="nav-item-custom" href={resume} download>
+        <a
+          className="nav-item-custom"
+          href={resume}
+          download="Syed Raza Abbas - Resume.pdf"
+        >
           Resume
         </a>
       </div>

@@ -153,11 +153,22 @@ i.fab:hover {
   color: var(--nyanza);
   /* margin: 1em; */
   width: 29em;
+  height: 20em;
+  box-shadow: 5px -5px 5px 0px var(--nyanza);
+  border-radius: 20px;
 }
-
+.project {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+  justify-items: center;
+}
 .card-img-top {
-  width: 29em;
-  height: 17em;
+  width: 32em;
+  height: 20em;
+  border-radius: 20px;
+  box-shadow: -5px 5px 5px 0px var(--nyanza);
 }
 .card-img-top.BookCase {
   background-image: url("./assets/bookcase.JPG");
@@ -169,6 +180,12 @@ i.fab:hover {
   background-position: center;
   background-size: cover;
 }
+.card-img-top.TicTacToe {
+  background-image: url("./assets/tictactoe.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .card-body {
   display: grid;
@@ -177,10 +194,12 @@ i.fab:hover {
 }
 
 .projects {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
   width: 100vw;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   /* margin: 2em; */
   /* flex-direction: column; */
 }
@@ -293,12 +312,16 @@ i.fab:hover {
     flex-direction: column;
   }
   .card {
-    margin: 1em auto;
+    margin: 1em 1em;
     width: 22em;
+    height: 25em;
+    font-size: 0.7em;
+    box-shadow: -5px 5px 5px 0px var(--nyanza);
   }
   .card-img-top {
-    width: 22em;
+    width: 18em;
     height: 13em;
+    box-shadow: 5px -5px 5px 0px var(--nyanza);
   }
   .web .skills-grid {
     display: grid;
@@ -306,11 +329,14 @@ i.fab:hover {
   }
   .tools .skills-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
   .home-info-container {
     text-align: left;
+  }
+  .project {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -323,14 +349,23 @@ i.fab:hover {
   }
   .card {
     margin: 1em auto;
-    width: 22em;
+    width: 28em;
+    box-shadow: -5px 5px 5px 0px var(--nyanza);
   }
   .card-img-top {
-    width: 22em;
-    height: 13em;
+    width: 28em;
+    height: 18em;
+    box-shadow: 5px -5px 5px 0px var(--nyanza);
+  }
+  .project {
+    grid-template-columns: 1fr;
   }
 }
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .project {
+    width: 95%;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) and (max-width: 1449) {
   .home,

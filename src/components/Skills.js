@@ -38,10 +38,10 @@ export default function Skills() {
           <i className="devicon-heroku-line-wordmark skill"></i>
           <i className="devicon-git-plain-wordmark skill"></i>
           <i className="devicon-github-original-wordmark  skill"></i>
-          <i className="devicon-bootstrap-plain-wordmark skill"></i>
+          {/* <i className="devicon-bootstrap-plain-wordmark skill"></i> */}
         </main>
       </article>
-      {/* <footer className="skills-spacer spacer"></footer> */}
+      <footer className="skills-spacer spacer"></footer>
     </section>
   );
 }

@@ -17,12 +17,26 @@ const projectData = [
   },
   {
     id: 2,
+    name: "TicTacToe",
+    live: "https://tictactoe-sa.herokuapp.com/",
+    image: "/assets/tictactoe.JPG",
+    repo: "https://github.com/SAbbas2018/tictactoe",
+    desc:
+      "An OOP Tic Tac Toe game users can play against another user on the same window, a computer with 3 levels of difficulty, or agains a friend in real time through web sockets.",
+    tech: [
+      <i className="devicon-express-original-wordmark tech-icon"></i>,
+      <i className="devicon-react-original-wordmark tech-icon"></i>,
+      <i className="devicon-nodejs-plain-wordmark tech-icon"></i>,
+    ],
+  },
+  {
+    id: 3,
     name: "NewScript",
     live: "https://newscript-sa.herokuapp.com/",
     image: "/assets/newscript.JPG",
     repo: "https://github.com/SAbbas2018/newscript-react",
     desc:
-      "This React and Node.js application obtainsweather information for a given city, and news headlines for common categories.",
+      "This React and Node.js application obtains weather information for a given city, and news headlines for common categories.",
     tech: [
       <i className="devicon-express-original-wordmark tech-icon"></i>,
       <i className="devicon-react-original-wordmark tech-icon"></i>,
