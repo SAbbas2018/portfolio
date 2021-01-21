@@ -410,6 +410,7 @@ i.fab:hover {
   .card {
     margin: 1em auto;
     width: 55em;
+    height: 30em;
   }
   .card-img-top {
     width: 55em;
