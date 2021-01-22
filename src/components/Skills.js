@@ -14,6 +14,7 @@ export default function Skills() {
           <i className="devicon-css3-plain-wordmark skill"></i>
         </main>
       </article>
+      <br />
       <article className="skills-container programming">
         <header className="container-title skills-header">
           Programming Languages
@@ -24,6 +25,7 @@ export default function Skills() {
           {/* <i className="devicon-go-plain skill"></i> */}
         </main>
       </article>
+      <br />
       <article className="skills-container databases">
         <header className="container-title skills-header">Databases</header>
         <main className="skills-grid">
@@ -32,6 +34,7 @@ export default function Skills() {
           <i className="devicon-mysql-plain-wordmark skill"></i>
         </main>
       </article>
+      <br />
       <article className="skills-container tools">
         <header className="container-title skills-header">Tools</header>
         <main className="skills-grid">

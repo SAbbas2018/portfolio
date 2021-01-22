@@ -75,7 +75,12 @@ a:hover {
   margin: auto;
   padding: 10px;
 }
-
+.about-me-title {
+  font-size: 1.2em;
+}
+.about-me-text {
+  width: 75%;
+}
 .social-container {
   width: 50%;
   margin: auto;
@@ -247,7 +252,7 @@ i.fab:hover {
   text-transform: uppercase;
   height: 8vh;
   width: 90vw;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  /* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
   font-size: 2em;
   margin: 1em;
 }
@@ -259,6 +264,7 @@ i.fab:hover {
   /* height: 33vh; */
   width: 100%;
   position: relative;
+  margin: 5px;
 }
 
 /* .programming {
