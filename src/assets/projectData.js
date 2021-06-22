@@ -3,10 +3,10 @@ const projectData = [
 	{
 		id: 1,
 		name: "BookCase",
-		live: "https://book-case-sa.herokuapp.com/",
+		live: "https://bookcase-v2-typescript.herokuapp.com/login",
 		image: "/assets/bookcase.JPG",
-		repo: "https://github.com/SAbbas2018/BookCase",
-		desc: "This MERN stack application uses the Google Books API for getting information on books by their ISBN-13s, and makes recommendations to users.",
+		repo: "https://github.com/SAbbas2018/bookcase-typescript",
+		desc: "The application features user registration/authentication and uses the Google Books API for getting information on books by their ISBN (user input),and to make recommendations based on the user’s library of books.",
 		tech: [
 			<i className="devicon-mongodb-plain-wordmark tech-icon"></i>,
 			<i className="devicon-express-original-wordmark tech-icon"></i>,
@@ -27,20 +27,6 @@ const projectData = [
 			<i className="devicon-nodejs-plain-wordmark tech-icon"></i>,
 		],
 	},
-	//   {
-	//     id: 3,
-	//     name: "NewScript",
-	//     live: "https://newscript-sa.herokuapp.com/",
-	//     image: "/assets/newscript.JPG",
-	//     repo: "https://github.com/SAbbas2018/newscript-react",
-	//     desc:
-	//       "This React and Node.js application obtains weather information for a given city, and news headlines for common categories.",
-	//     tech: [
-	//       <i className="devicon-express-original-wordmark tech-icon"></i>,
-	//       <i className="devicon-react-original-wordmark tech-icon"></i>,
-	//       <i className="devicon-nodejs-plain-wordmark tech-icon"></i>,
-	//     ],
-	//   },
 	{
 		id: 3,
 		name: "Carden",
