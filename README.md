@@ -1,3 +1,4 @@
 # Syed Raza Abbas
 
-This is the code for my portfolio, it is written in React and is purely frontend.
+The code for my portfolio is written in React, HTML, and CSS. 
+The portfolio uses bootstrap and custom css for styling.
