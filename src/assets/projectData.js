@@ -18,7 +18,7 @@ const projectData = [
 		id: 2,
 		name: "Carden",
 		live: "http://www.mycarden.com/",
-		image: "/assets/project_images/carden-500x260.JPG",
+		image: "/assets/project_images/carden-500x260.jpg",
 		repo: "#",
 		desc: "Create and send interactive cards. Instead of sending your friend a text for their next birthday, send them a webpage. Choose from templates or make your own!",
 		tech: [
@@ -32,7 +32,7 @@ const projectData = [
 		id: 3,
 		name: "TicTacToe",
 		live: "https://tictactoe-sa.herokuapp.com/",
-		image: "/assets/project_images/tictactoe-500x260.JPG",
+		image: "/assets/project_images/tictactoe-500x260.jpg",
 		repo: "https://github.com/SAbbas2018/tictactoe",
 		desc: "An OOP Tic Tac Toe game users can play against another user on the same window, a computer with 3 levels of difficulty, or agains a friend in real time through web sockets.",
 		tech: [
