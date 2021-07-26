@@ -26,10 +26,13 @@ const theme = extendTheme({
 			bunting: "#353849",
 			richBlack: "#070B0D",
 			sunGlow: "#FFD147",
+			fauxCharcoalLight: "#404358",
+			fauxCharcoalLighter: "#5D5F6D",
+			romanSilver: "#858791",
 		},
 	},
 	fonts: {
-		heading: "Roboto",
+		heading: "Poppins",
 	},
 });
 

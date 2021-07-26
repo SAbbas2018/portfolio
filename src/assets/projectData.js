@@ -17,7 +17,6 @@ const projectData = [
 	{
 		id: 2,
 		name: "Carden",
-		live: "http://www.mycarden.com/",
 		image: "/assets/project_images/carden-500x260.jpg",
 		repo: "#",
 		desc: "Create and send interactive cards. Instead of sending your friend a text for their next birthday, send them a webpage. Choose from templates or make your own!",

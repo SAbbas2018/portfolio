@@ -12,21 +12,20 @@ function Project(props) {
 			flexDirection={["column", "column", "row", "row"]}
 			justifyContent="space-evenly"
 		>
-			<Link href={live} isExternal>
-				<Box
-					variant="projectImage"
-					overflow="hidden"
-					backgroundImage={`url(${image})`}
-					w={["350px", "400px", "450px", "600px"]}
-					backgroundPosition="center"
-					backgroundSize="contain"
-					h={["182px", "208px", "234px", "312px"]}
-					cursor="pointer"
-					rounded="md"
-					m="1rem"
-					className="project-image"
-				></Box>
-			</Link>
+			<Box
+				variant="projectImage"
+				overflow="hidden"
+				backgroundImage={`url(${image})`}
+				w={["350px", "400px", "450px", "600px"]}
+				backgroundPosition="center"
+				backgroundSize="contain"
+				h={["182px", "208px", "234px", "312px"]}
+				cursor="pointer"
+				rounded="md"
+				m="1rem"
+				className="project-image"
+			></Box>
+
 			<Box
 				w={["350px", "400px", "450px", "600px"]}
 				borderWidth="1px"
@@ -71,14 +70,16 @@ function Project(props) {
 						alignItem="flex-start"
 						justifyContent="flex-end"
 					>
-						<Link href={live} isExternal>
-							<Tooltip
-								label="Visit Site"
-								aria-label="visit-site-tooltip"
-							>
-								<Icon as={ExternalLinkIcon}></Icon>
-							</Tooltip>
-						</Link>
+						{live && (
+							<Link href={live} isExternal>
+								<Tooltip
+									label="Visit Site"
+									aria-label="visit-site-tooltip"
+								>
+									<Icon as={ExternalLinkIcon}></Icon>
+								</Tooltip>
+							</Link>
+						)}
 						{name !== "Carden" ? (
 							<Tooltip
 								label="GitHub Repo"

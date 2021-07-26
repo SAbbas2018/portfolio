@@ -4,14 +4,27 @@ import { Box, Heading, Center, Image } from "@chakra-ui/react";
 export default function Skills() {
 	return (
 		<>
-			<Box p={5} color="palette.platinum" backgroundColor="teal" w="100%">
-				<Heading>Skills</Heading>
+			<Box
+				p={5}
+				color="palette.nyanza"
+				backgroundColor="palette.bunting"
+				w="100%"
+			>
+				<Heading
+					margin="1em"
+					width="90vw"
+					height="8vh"
+					borderBottom="solid 2px rgba(255, 255, 255, 0.125)"
+					textTransform="uppercase"
+				>
+					Skills
+				</Heading>
 			</Box>
 			<Box
 				as="section"
 				id="skills"
-				// backgroundColor="palette.darkSlateBlue"
-				backgroundImage={`url(${BG})`}
+				backgroundColor="palette.bunting"
+				// backgroundImage={`url(${BG})`}
 				d="grid"
 				gridTemplateColumns="1fr"
 				placeItems="center"
