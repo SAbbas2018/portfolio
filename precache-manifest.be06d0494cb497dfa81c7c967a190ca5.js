@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "026641f00eb8d955db8aa448febbce55",
+    "revision": "4d810ee7cacfeb2b44d8042f176f53ef",
     "url": "/index.html"
   },
   {
-    "revision": "e34e039b44b9aa90a1cc",
+    "revision": "85aa518754ff5caa2219",
     "url": "/static/css/main.0f019cc7.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a3dc6828.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e34e039b44b9aa90a1cc",
-    "url": "/static/js/main.98d90f4a.chunk.js"
+    "revision": "85aa518754ff5caa2219",
+    "url": "/static/js/main.533670b8.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
     "url": "/static/js/runtime-main.19ccc7f6.js"
   },
   {
-    "revision": "aa96cbbe8528beab9f8aa06badcd1fef",
-    "url": "/static/media/Resume - Syed Raza Abbas.aa96cbbe.pdf"
+    "revision": "8593d3d1bef32cd477779193e0792003",
+    "url": "/static/media/Resume - Syed Raza Abbas.8593d3d1.pdf"
   },
   {
     "revision": "515ea5998aae5c8c8061fb33c57b92e0",
